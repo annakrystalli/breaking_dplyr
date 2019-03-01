@@ -39,4 +39,4 @@ Sometimes, if you want to continue using your code, you might want it to track c
 
 ***
 
-_Developed as part of the [Turing Way](https://github.com/alan-turing-institute/the-turing-way) Binder workshop series_
+_Developed as part of the [Turing Way](https://github.com/alan-turing-institute/the-turing-way) Binder [workshop series](https://github.com/alan-turing-institute/the-turing-way/tree/master/workshops)_
