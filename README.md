@@ -21,6 +21,10 @@ One year later, using the latest version of `dplyr` at the time (0.5.0) the code
 
 Check it out in this interactive binder environment at MRAN snapshot **2016-07-25**: [![Launch Rstudio binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/one-year-later?urlpath=rstudio)
 
+#### Questions
+- Where and why does the code fail?
+- Can you identify the difference in the two branches that is causing the difference in the computation environments?
+
 ### take away
 
 > ✅ Using binder and fixing the snapshot of MRAN to the time the code was developed is a simple way to maintain reproducibility.
