@@ -21,10 +21,22 @@ One year later, using the latest version of `dplyr` at the time (0.5.0) the code
 
 Check it out in this interactive binder environment at MRAN snapshot **2016-07-25**: [![Launch Rstudio binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/one-year-later?urlpath=rstudio)
 
+### take away
+
+> ✅ Using binder and fixing the snapshot of MRAN to the time the code was developed is a simple way to maintain reproducibility.
 
 ***
 
 #### Bonus exercises
 
+Sometimes, if you want to continue using your code, you might want it to track changes in dependencies.
+
 - Can you rewrite the analysis code in the one year later environment to account for the change in the function API?
 - Can you rewrite the analysis code so that it works for both versions?
+
+
+<br>
+
+***
+
+_Developed as part of the [Turing Way](https://github.com/alan-turing-institute/the-turing-way) Binder workshop series_
