@@ -1,7 +1,7 @@
 # breaking_dplyr
 
 
-The goal of breaking_dplyr is to **highlight the importance of managing r package versions** by demonstrat ing how a simple update to a package can break code just one year later.
+The goal of breaking_dplyr is to **highlight the importance of managing r package versions** by demonstrating how a simple update to a package can break code just one year later.
 
 The repository contains a **short snippet of analysis code (`analysis.R`) which uses a function in package `dplyr` that experiences a breaking change in version 0.5.0**.
 
