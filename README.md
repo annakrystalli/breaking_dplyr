@@ -11,7 +11,7 @@ The repository contains a **short snippet of analysis code (`analysis.R`) which 
 
 The code was written in July 2015 with package version 0.4.2
 
-Check it out in this interactive binder environment at MRAN snapshot **2015-07-25**: [![Launch Rstudio binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/master?urlpath=rstudio)
+Check it out in this interactive binder environment at MRAN snapshot **2015-07-25**: [![Launch Rstudio binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/CompEnv-PairedExample-4/master?urlpath=rstudio)
 
 
 ***
@@ -19,7 +19,7 @@ Check it out in this interactive binder environment at MRAN snapshot **2015-07-2
 
 One year later, using the latest version of `dplyr` at the time (0.5.0) the code snippet is no longer reproducible.
 
-Check it out in this interactive binder environment at MRAN snapshot **2016-07-25**: [![Launch Rstudio binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/one-year-later?urlpath=rstudio)
+Check it out in this interactive binder environment at MRAN snapshot **2016-07-25**: [![Launch Rstudio binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/CompEnv-PairedExample-4/one-year-later?urlpath=rstudio)
 
 #### Questions
 - Where and why does the code fail?
