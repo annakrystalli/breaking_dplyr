@@ -1,4 +1,4 @@
-# breaking_dplyr
+# CompEnv - Paired Example 4: breaking dplyr
 
 
 The goal of breaking_dplyr is to **highlight the importance of managing r package versions** by demonstrating how a simple update to a package can break code just one year later.
