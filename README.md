@@ -1,3 +1,14 @@
+# CompEnv - Paired Example 4: breaking dplyr
+
+
+The goal of breaking_dplyr is to **highlight the importance of managing r package versions** by demonstrating how a simple update to a package can break code just one year later.
+
+The repository contains a **short snippet of analysis code (`analysis.R`) which uses a function in package `dplyr` that experiences a breaking change in version 0.5.0**.
+
+***
+
+### developing the code
+
 The code was written in July 2015 with package version 0.4.2
 
 Check it out in [Rstudio](https://resources.rstudio.com/rstudio-cheatsheets/rstudio-ide-cheat-sheet) through this interactive binder environment at MRAN snapshot **2015-07-25**: [![Launch Rstudio binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/CompEnv-PairedExample-4/master?urlpath=rstudio)
