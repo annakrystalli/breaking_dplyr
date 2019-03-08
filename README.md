@@ -1,46 +1,32 @@
-# CompEnv - Paired Example 4: breaking dplyr
+# Computational Environment Paired Example 4
 
+A branch in GitHub is a pointer to a specific snapshot of the repository, on top of which new work can be saved independently from work ongoing on the original snapshot. There are two branches in this repository.
 
-The goal of breaking_dplyr is to **highlight the importance of managing r package versions** by demonstrating how a simple update to a package can break code just one year later.
+* `master`: https://github.com/sgibson91/CompEnv-PairedExample-4/tree/master
+* `one-year-later`: https://github.com/sgibson91/CompEnv-PairedExample-4/tree/one-year-later
 
-The repository contains a **short snippet of analysis code (`analysis.R`) which uses a function in package `dplyr` that experiences a breaking change in version 0.5.0**.
+Each branch contains an `install.R` file, which lists the package dependencies of the code, and a `runtime.txt`, which contains a date referring to a MRAN snapshot of the CRAN R package manager.
 
-***
+The binders for each branch can be accessed at these links:
+* `master`: https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/master?urlpath=rstudio
+* `one-year-later`: https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/one-year-later?urlpath=rstudio
 
-### developing the code
+When the binders have launched, you will see an RStudio environment, which has three windows.
+On the left is the R Console where R commands can be executed interactively.
+On the upper right is a window which shows the variables saved in the environment after code is executed (among other things).
+And on the lower right is a file structure window.
 
-The code was written in July 2015 with package version 0.4.2
+## Instructions
 
-Check it out in this interactive binder environment at MRAN snapshot **2015-07-25**: [![Launch Rstudio binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/master?urlpath=rstudio)
+1) Click the links for each branch above.
+   (You may wish to right click and select "Open Link in a New Tab" in order to keep these instructions visible.)
 
+2) When the binders have finished launching, open the `analysis.R` file by double clicking on it in the bottom right window.
+   This will open a new window in the upper left, above the R console, containing the code.
 
-***
-### running the code one year later
+3) With your cursor, highlight the all of the code in the new window.
+   Run the code by clicking the "Run" button at the top of this window.
 
-One year later, using the latest version of `dplyr` at the time (0.5.0) the code snippet is no longer reproducible.
-
-Check it out in this interactive binder environment at MRAN snapshot **2016-07-25**: [![Launch Rstudio binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/annakrystalli/breaking_dplyr/one-year-later?urlpath=rstudio)
-
-#### Questions
-- Where and why does the code fail?
-- Can you identify the difference in the two branches that is causing the difference in the computation environments?
-
-### take away
-
-> ✅ Using binder and fixing the snapshot of MRAN to the time the code was developed is a simple way to maintain reproducibility.
-
-***
-
-#### Bonus exercises
-
-Sometimes, if you want to continue using your code, you might want it to track changes in dependencies.
-
-- Can you rewrite the analysis code in the one year later environment to account for the change in the function API?
-- Can you rewrite the analysis code so that it works for both versions?
-
-
-<br>
-
-***
-
-_Developed as part of the [Turing Way](https://github.com/alan-turing-institute/the-turing-way) Binder [workshop series](https://github.com/alan-turing-institute/the-turing-way/tree/master/workshops)_
+**Q's:**
+* Where and why does the code fail?
+* Can you identify the difference in the two branches that is causing the difference in the computation environments?
